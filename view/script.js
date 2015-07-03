@@ -8,6 +8,7 @@ $(document).ready(function()
 	applyResize();
 	checkHash();
 	checkBrowser();
+	listAbilities();
 });
 
 /* HEADER FUNCTIONS */
@@ -232,24 +233,36 @@ function listAbilities()
 }
 
 function createAbilitySections(dict) {
-	var headersList = Objects.keys(dict);
-	for(var i = 0; i < headersList.length(); i++) {
+	var headersList = Object.keys(dict); //turns Object's keys into a list
+
+	for (var i = 0; i < headersList.length; i++) {
+
 		var header = '<hr> <h3>'+headersList[i]+'</h3>';
-		var listsList = Objects.keys(dict[headersList[i]]);
-		for(var j = 0; j < headersList.length(); j++) {
+		$('#abilities').append(header);
+
+		var listsList = Object.keys(dict[headersList[i]]); // Get array of subskills
+		var list = '';
+		var newListSection = '';
+		for(var j = 0; j < listsList.length; j++) {
+			//make stars
 			var numOfStars = dict[headersList[i]][listsList[j]];
-			if (j === (headersList.length())/2) {
-				var newListSection = '<div class="row"><div class="col-md-6"><ul class="no-bullets"></ul></div></div>';
-			}
-			var list = '<li><span class="ability-title">'+listsList[j]+'</span><span class="ability-score"></li>';
 			var stars = '';
-			for(var k = 0; k < numOfStars; k++) {
+			for(var k = 0; k < numOfStars; k++) { //filled stars
 				stars += '<span class="glyphicon glyphicon-star filled"></span>';
 			}
-			for(k=0; k < 5-numOfStars; k++) {
+			for(k=0; k < 5-numOfStars; k++) { //empty stars
 				stars  += '<span class="glyphicon glyphicon-star "></span>';
 			}
+			//Add listitems
+			list += '<li><span class="ability-title">'+listsList[j]+'</span><span class="ability-score">'+stars+'</span></li>';
+			//append list column
+			if (j+1 === Math.ceil(listsList.length/2) || j+1 === listsList.length ) {
+				newListSection += '<div class="col-md-6"><ul class="no-bullets">'+list+'</ul></div>';
+				list = '';
+			}
+
 		}
+		$('#abilities').append('<div class="row">'+newListSection+'</div>');
 	}
 
 
