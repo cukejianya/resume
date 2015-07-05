@@ -220,17 +220,43 @@ function listAbilities()
 			'Objective-C':1,
 		},
 		'Skills': {
-			'Linux OS':4,
-			'Ubuntu OS':3,
 			'OSX':5,
-			'Terminal/Bash':3,
+			'Linux OS':4,
 			'Gimp':4,
+			'MS Word':4,
+			'Powerpoint':4,
+			'Ubuntu OS':3,
+			'Terminal/Bash':3,
+			'Excel':3,
 			'iMovie': 1
 		},
 	};
 
 	createAbilitySections(listOfAbilities);
+	var listOfCareers = [
+		{
+			'Company':'Medstar SiTEL', 'Time':'July 2014-Aug 2014', 'Location':'D.C. Washington', 'Website':['https://www.sitelms.org/home/login/','sitelms.org'], 'Position':'Front-End Developer Intern', 'Task':[
+			'Worked with programming languages such as PHP (First-Time), HTML, CSS, Bootstrap, and Google APIs',
+			'Was able to service over 3000 users through the SiTEL-LMs website',
+			'Worked with Linux and Ubuntu operating systems',
+			'Established a great sense of teamwork'
+			]
+		},
+		{
+			'Company':'Department of Resident Life, Univ. of MD', 'Time':'Aug 2013-May 2014', 'Location':'College Park, MD/ University of Maryland', 'Website':['http://reslife.umd.edu/','reslife.umd.edu',], 'Position':'Customer Service Supervisor', 'Task':[
+				'Establishes and maintains a productive environment where people strive for quality customer service',
+				'Supervises and provides 13 Community Assistants with frequent performance feedback and coaching in groups and in person aimed at improvement',
+				'Communicates objectives and policies to others while creating an environment where excellence and needs are accepted and addressed',
+			]
+			},
+		// {
+		// 	'Company':'', 'Time':'', 'Location':'', 'Website':[], 'Position':'', 'Task':[]
+		// },
+	];
+	createCareerList(listOfCareers);
+
 }
+
 
 function createAbilitySections(dict) {
 	var headersList = Object.keys(dict); //turns Object's keys into a list
@@ -264,6 +290,36 @@ function createAbilitySections(dict) {
 		}
 		$('#abilities').append('<div class="row">'+newListSection+'</div>');
 	}
+}
 
+function createCareerList(arr) {
+	var fullList = '';
+	for (var i = 0; i < arr.length; i++){
 
+		var dict = arr[i];
+		var company = '<h4>'+dict['Company']+'</h4>';
+		var period = '<p class="experience-period">'+dict['Time']+'</p>';
+		var position = '<strong>'+dict['Position']+'</strong>';
+		var task = '';
+
+		for (var j = 0; j < dict['Task'].length; j++) {
+			task += '<span class="glyphicon glyphicon-arrow-right"></span> '+dict['Task'][j];
+
+			if (j+1 < dict['Task'].length) {
+				task+= '<br>'
+			}
+
+		}
+
+		task = '<span class="hidden-phone">'+task+'</span>';
+		var location = '<span class="location"><span class="glyphicon glyphicon-map-marker"></span> '+dict['Location']+'</span><span class="seperator"> | </span>';
+		var link = '<span class="link"><span class="glyphicon glyphicon-link"></span><a href='+dict['Website'][0]+' target="_blank"> '+dict['Website'][1]+'</a></span>';
+
+		var div1 = '<div class="col-md-4">'+company+period+'</div>';
+		var subdiv = '<span class="experience-details">'+location+link+'</span>';
+		var div2 = '<div class="col-md-8"><p>'+position+task+subdiv+'</p></div>';
+		fullList += div1+div2;
+	}
+
+	$('#Careers').append('<div class="experience row">'+fullList+'</div>');
 }
