@@ -22,10 +22,11 @@
 		<!-- Bootstrap core CSS -->
 		<link href="view/css" rel="stylesheet">
 		<link href="view/css/bootstrap.min.css" rel="stylesheet">
-
 		<link href="view/css/style.css" rel="stylesheet">
-		<link href="lib/iconate.min.js" rel="stylesheet">
 
+		<!--Icon Libraries-->
+		<link href="lib/iconate.min.js" rel="stylesheet">
+		<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css"> <!--version 4.4.0-->
 
 		<link rel="shortcut icon" href="./view/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="./view/favicon.ico" type="image/x-icon">
@@ -38,7 +39,7 @@
 	</head>
 	<body data-spy="scroll" data-target="#navbar-example" data-twttr-rendered="true" class="">
 
-		<div id="top" class="jumbotron" data-src="/view/images/highway_animation.gif" data-position="center right" style="height: 334px;">
+		<div id="top" class="jumbotron vertical-center" data-src="/view/images/highway_animation.gif" data-position="center center" style="height: 334px;">
 
 			<div class="overlay">
 				<div class="col-md-12 text-center brand">
@@ -173,7 +174,6 @@
 			</div>
 		</div>
 
-
 		<div id="projects" class="container">
 			<h2>Projects</h2>
 			<p class="lead">
@@ -292,64 +292,91 @@
 		<div class="background-gray">
 			<div id="contact" class="container">
 				<h2>Contact</h2>
-<p class="lead">
-	“If I had asked people what they wanted, they would have said faster horses. ”<br>- Henry Ford
-</p>
+				<p class="lead">
+					“If I had asked people what they wanted, they would have said faster horses. ”<br>- Henry Ford
+				</p>
 
-<hr>
+				<hr>
 
-<div class="row">
-	<div class="col-md-6">
-		<ul class="no-bullets">
-			<!--<li>
-				<a href="http://twitter.com/pascalvgemert" target="_blank">
-					<span class="icon icon-twitter"></span>
-					http://twitter.com/pascalvgemert				</a>
-			</li>-->
-			<li>
-				<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target="_blank">
-					<span class="icon icon-linkedin"></span>
-					www.linkedin.com/cukejianya				</a>
-			</li>
-		</ul>
-	</div>
-	<div class="col-md-6">
-		<ul class="no-bullets">
-			<!-- <li>
-				<a href="javascript:void(0);">
-					<span class="icon icon-skype"></span>
-					pascalvgemert				</a>
-			</li> -->
-			<li>
-				<a href="mailto:cukejianya@gmail.com">
-					<span class="icon icon-email"></span>
-					<span style="unicode-bidi:bidi-override;">
-						cukejianya@gmail.com					</span>
-				</a>
-			</li>
-		</ul>
-	</div>
-</div>
-
-<hr>
-</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-4">
+						<ul class="no-bullets">
+							<!--<li>
+								<a href="http://twitter.com/pascalvgemert" target="_blank">
+									<span class="icon icon-twitter"></span>
+									http://twitter.com/pascalvgemert				</a>
+							</li>-->
+							<li>
+								<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target="_blank">
+									<span class="fa-stack fa-sm">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-linkedin fa-stack-1x fa-inverse" style='color:#434242;'></i>
+									</span>
+									LinkedIn
+								</a>
+							</li>
+							<li>
+								<a href="https://github.com/cukejianya" target="_blank">
+									<span class="fa-stack fa-sm">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-github-alt fa-stack-1x fa-inverse" style='color:#434242;'></i>
+									</span>
+									Github
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-4">
+						<ul class="no-bullets">
+							<!-- <li>
+								<a href="javascript:void(0);">
+									<span class="icon icon-skype"></span>
+									pascalvgemert				</a>
+							</li> -->
+							<li>
+								<a href="mailto:cukejianya@gmail.com">
+									<span class="fa-stack fa-sm">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-twitter fa-stack-1x fa-inverse" style='color:#434242;'></i>
+									</span>
+									<span>
+										Twitter
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="mailto:cukejianya@gmail.com">
+									<span class="fa-stack fa-sm">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-envelope fa-stack-1x fa-inverse" style='color:#434242;'></i>
+									</span>
+									<span style="unicode-bidi:bidi-override;">
+										E-mail
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<hr>
+			</div>
 		</div>
 
-<div class="modal fade" id="upgrade-dialog" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title">Your browser is out of date</h4>
-			</div>
-			<div class="modal-body">
-				<p>To get the best possible experience using our site we recommend that you upgrade to a modern web browser. To download a newer web browser click on the Upgrade button.</p>
-			</div>
-			<div class="modal-footer">
-				<a href="http://browsehappy.com/" target="_blank" class="btn btn-primary">Upgrade</a>
-			</div>
-		</div><!-- /.modal-content -->
-	</div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+		<div class="modal fade" id="upgrade-dialog" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Your browser is out of date</h4>
+					</div>
+					<div class="modal-body">
+						<p>To get the best possible experience using our site we recommend that you upgrade to a modern web browser. To download a newer web browser click on the Upgrade button.</p>
+					</div>
+					<div class="modal-footer">
+						<a href="http://browsehappy.com/" target="_blank" class="btn btn-primary">Upgrade</a>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 		<!-- Bootstrap core JavaScript -->
 		<script type="text/javascript" src="lib/jquery.min.js"></script>
 		<script type="text/javascript" src="view/js/script.js"></script>
