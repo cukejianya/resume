@@ -359,6 +359,12 @@
 					</div>
 				</div>
 				<hr>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-4">
+						<span class=''></span><br>
+						<span>Back to the Top</span>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -382,6 +388,18 @@
 		<script type="text/javascript" src="view/js/script.js"></script>
 		<script type="text/javascript" src="lib/bootstrap.min.js"></script>
 		<script type="text/javascript" src="lib/iconate.min.js"></script>
+		<script type="text/javascript" src="lib/elevator.min.js"></script>
+		<script>
+			// Elevator script included on the page, already.
+
+			window.onload = function() {
+			  var elevator = new Elevator({
+			    element: document.querySelector('.elevator-button'),
+			    mainAudio: '/src/to/audio.mp3',
+			    endAudio: '/src/to/end-audio.mp3'
+			  });
+			}
+		</script>
 
 	</body>
 </html>
