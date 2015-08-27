@@ -9,7 +9,7 @@ $(document).ready(function()
 	checkHash();
 	checkBrowser();
 	listAbilities();
-	
+
 });
 
 /* HEADER FUNCTIONS */
@@ -235,6 +235,18 @@ function listAbilities()
 
 	createAbilitySections(listOfAbilities);
 	var listOfCareers = [
+		{
+			'Company':'Trove News', 'Time':'May 2015-Aug 2015', 'Location':'D.C. Washington', 'Website':['https://www.trove.com','trove.com'], 'Position':'Back-End Developer Intern', 'Task':[
+			'Worked primarily with Python, Pyramid (ORM), and Mako. However, I was able to use SQL and CoffeeScript',
+			'Used Agile methodologies by using Atlassian JIRA',
+			'Able to work on a one month project which I pushed into production towards the end of my internship',
+			'Help to incorporate NPR podcast in troves during in house hack-a-thon',
+			'Converted a bookmarklet into a google chrome extension',
+			'Used git and github extensively dealing with merge conflicts and code reviews',
+			'Develop the overall email template used in the end product of my final project',
+			'Learned a lot from this experience which was/is invaluable'
+			]
+		},
 		{
 			'Company':'Medstar SiTEL', 'Time':'July 2014-Aug 2014', 'Location':'D.C. Washington', 'Website':['https://www.sitelms.org/home/login/','sitelms.org'], 'Position':'Front-End Developer Intern', 'Task':[
 			'Worked with programming languages such as PHP (First-Time), HTML, CSS, Bootstrap, and Google APIs',
