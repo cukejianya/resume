@@ -5,7 +5,7 @@
     "picture": "https://i.imgur.com/52VJARv.png",
     "email": "richard.hendriks@gmail.com",
     "phone": "",
-    "website": "https://cukejianya.com",
+    "website": "www.cukejianya.com",
     "summary": "Chinedum holds a Bachelors Degree in Physical Science with a concentration in Mathematics, Physics, and Computer Science. Though Chinedum spent a measurable amount of time programming through Role Playing Game Maker 2003, a gaming software tool, his first true introduction to computer science was through a Hack-a-thon. From that point on, Chinedum has enjoyed problem solving various programming obstacles and creating mini side projects.",
     "location": {
       "address": "",
@@ -18,7 +18,7 @@
       {
         "network": "Twitter",
         "username": "ukejianya_",
-        "url": "https://twitter.com/ukejianya_"
+        "url": "https://twitter.com/cukejianya_"
       },
       {
         "network": "Github",
@@ -46,14 +46,14 @@
     {
       "company": "SocialCode",
       "position": "Software Developer (Full Stack)",
-      "website": "https://cukejianya.com",
+      "website": "https://www.socialcode.com",
       "startDate": "2017-09-18",
       "endDate": "2018-06-06",
       "summary": " SocialCode enables smarter, more profitable brands. Our media and analytics capabilities empower marketers to understand, manage and reach their audiences across social, mobile and video platforms.",
       "highlights": [
         "Worked with Django and python 2.7/3.5 on the backend to interact with the pinterest and snapchat social media ads api",
         "Used Emberjs to create interfaces for data from various social media ads to be displayed within our internal team",
-        "Depolyed and worked on multiple micro-services using technologies such as chef, jenkins, aws (RDS and EC2), sentry, and git",
+        "Deployed and worked on multiple micro-services using technologies such as chef, jenkins, aws (RDS and EC2), sentry, and git",
         "Managed and maintained several relational databases"
       ]
     },
@@ -85,7 +85,7 @@
   "education": [
     {
       "institution": "University of Maryland, College Park",
-      "area": "Physical Science",
+      "area": "Physical Science [concentration in Mathematics, Physics, and Computer Science]",
       "studyType": "Bachelor",
       "startDate": "2011-01-22",
       "endDate": "2017-08-21",
