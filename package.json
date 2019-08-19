@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "an online resume",
+  "main": "public/index.html",
+  "dependencies": {
+    "jsonresume-theme-paper": "file:jsonresume-theme-paper",
+    "resume-cli": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cukejianya/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cukejianya/resume/issues"
+  },
+  "homepage": "https://github.com/cukejianya/resume#readme"
+}

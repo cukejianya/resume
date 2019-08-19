@@ -2,17 +2,17 @@
   "basics": {
     "name": "Chinedum Ukejianya",
     "label": "Software Developer",
-    "picture": "https://i.imgur.com/52VJARv.png",
-    "email": "richard.hendriks@gmail.com",
+    "picture": "https://i.imgur.com/mletEEX.png",
+    "email": "cukejianya@gmail.com",
     "phone": "",
     "website": "www.cukejianya.com",
     "summary": "Chinedum holds a Bachelors Degree in Physical Science with a concentration in Mathematics, Physics, and Computer Science. Though Chinedum spent a measurable amount of time programming through Role Playing Game Maker 2003, a gaming software tool, his first true introduction to computer science was through a Hack-a-thon. From that point on, Chinedum has enjoyed problem solving various programming obstacles and creating mini side projects.",
     "location": {
       "address": "",
-      "postalCode": "MD 21163",
+      "postalCode": "",
       "city": "Baltimore",
       "countryCode": "US",
-      "region": "Maryland"
+      "region": "Baltimore, Maryland"
     },
     "profiles": [
       {
@@ -46,20 +46,21 @@
     {
       "company": "SocialCode",
       "position": "Software Developer (Full Stack)",
-      "website": "https://www.socialcode.com",
-      "startDate": "2017-09-18",
+      "website": "",
+      "startDate": "2016-04-24",
       "endDate": "2018-06-06",
       "summary": " SocialCode enables smarter, more profitable brands. Our media and analytics capabilities empower marketers to understand, manage and reach their audiences across social, mobile and video platforms.",
       "highlights": [
         "Worked with Django and python 2.7/3.5 on the backend to interact with the pinterest and snapchat social media ads api",
-        "Used Emberjs to create interfaces for data from various social media ads to be displayed within our internal team",
-        "Deployed and worked on multiple micro-services using technologies such as chef, jenkins, aws (RDS and EC2), sentry, and git",
-        "Managed and maintained several relational databases"
+        "Made the activation app faster and more responsive by transitioning our BackboneJS components to EmberJS",
+        "Deployed and worked on multiple micro-services using Agile Methods and technologies such as chef, jenkins, aws (RDS and EC2), sentry, and git",
+        "Helped shaped Snapchats and Pinterest Ad APIs by testing the APIs, documenting inconsistencies, and sharing my findinds with the respective social media's developer ad teams",
+        "Led projects that added features to our activation app which created an increase in productivity with our internal Ad Managers Sales Team"
       ]
     },
     {
       "company": "Trove News",
-      "position": "Software Developer (Intern)",
+      "position": "Backend Developer",
       "website": "",
       "startDate": "2015-05-22",
       "endDate": "2015-08-22",
@@ -71,24 +72,13 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "NodeSchool",
-      "position": "Mentor",
-      "website": "https://nodeschool.io/baltimore/",
-      "startDate": "2017-05-01",
-      "endDate": "",
-      "summary": "In-person hosted workshops, usually free, in which self-guided cli tuturials are used as curriculum and mentors help attendees work through the challenges.",
-      "highlights": []
-    }
-  ],
+  "volunteer": [],
   "education": [
     {
       "institution": "University of Maryland, College Park",
       "area": "Physical Science [concentration in Mathematics, Physics, and Computer Science]",
       "studyType": "Bachelor",
-      "startDate": "2011-01-22",
-      "endDate": "2017-08-21",
+      "endDate": "2017-05-01",
       "gpa": "",
       "courses": []
     }
@@ -105,28 +95,24 @@
       "fluency": "Intermediate"
     },
     {
+      "language": "NodeJS",
+      "fluency": "Experience"
+    },
+    {
       "language": "CSS",
-      "fluency": "Beginner"
-    },
-    {
-      "language": "Java",
-      "fluency": "Beginner"
-    },
-    {
-      "language": "Python",
       "fluency": "Intermediate"
     },
     {
-      "language": "SASS",
-      "fluency": "Beginner"
+      "language": "Python",
+      "fluency": "Experience"
     },
     {
       "language": "Emberjs",
       "fluency": "Intermediate"
     },
     {
-      "language": "C",
-      "fluency": "Beginner"
+      "language": "ReactJS",
+      "fluency": "Intermediate"
     }
   ],
   "interests": [],
