@@ -44,6 +44,18 @@
   },
   "work": [
     {
+      "company": "Code In The Schools",
+      "position": "Middle School CompSci Teacher",
+      "website": "",
+      "startDate": "2018-11-01",
+      "endDate": "2019-06-06",
+      "summary": "Code In The Schools mission is to expand access to computer science education in Baltimore City.",
+      "highlights": [
+        "Taught over 150 middle school students about ui design and basic coding principles",
+        "Used Javascript, HTML, scratch and arudinos C like langauge is teach kids how to build various projects",
+      ]
+    },
+    {
       "company": "SocialCode",
       "position": "Software Developer (Full Stack)",
       "website": "",
