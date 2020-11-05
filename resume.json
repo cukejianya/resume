@@ -44,15 +44,17 @@
   },
   "work": [
     {
-      "company": "Code In The Schools",
-      "position": "Middle School CompSci Teacher",
+      "company": "tech co.",
+      "position": "Full Stack Engineer",
       "website": "",
-      "startDate": "2018-11-01",
-      "endDate": "2019-06-06",
-      "summary": "Code In The Schools mission is to expand access to computer science education in Baltimore City.",
+      "startDate": "2019-10-18",
+      "endDate": "present",
+      "summary": "",
       "highlights": [
-        "Taught over 150 middle school students about UI design and basic coding principles",
-        "Used Javascript, HTML, Scratch and Arduino's C like langauge to teach kids how to build various projects"
+        "Worked with GraphQL and Ruby on Rails to migrate a database from Google Cloud Datastore",
+        "Worked with Java, Maven, and Google Cloud Platform to service more than 30,000 people simantaneously on both a web and mobile apps",
+        "Improved and refactor a integration PHP codebase connected to the Iterable.com API",
+        "Helped greenfield a new project using AngularJS 9 and Ngrx"
       ]
     },
     {
