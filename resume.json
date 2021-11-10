@@ -44,7 +44,7 @@
   },
   "work": [
     {
-      "company": "tech co.",
+      "company": "Helm",
       "position": "Full Stack Engineer",
       "website": "",
       "startDate": "2019-10-18",
@@ -54,7 +54,9 @@
         "Worked with GraphQL and Ruby on Rails to migrate a database from Google Cloud Datastore",
         "Worked with Java, Maven, and Google Cloud Platform to service more than 30,000 people simantaneously on both a web and mobile apps",
         "Improved and refactor a integration PHP codebase connected to the Iterable.com API",
-        "Helped greenfield a new project using AngularJS 9 and Ngrx"
+        "Helped greenfield a new project using AngularJS 9 and Ngrx",
+        "Architeched and built an Admin Service for both BE and FE using Python, AWS Lambda Functions, Angular 11, MongoDB, and Auth0 API",
+        "Helped transition our backend into our new stack which consisted of Graphql, nodejs, trypescript, AWS CDK, and postgress"
       ]
     },
     {
@@ -105,28 +107,28 @@
       "fluency": "Experience"
     },
     {
-      "language": "HTML",
-      "fluency": "Intermediate"
-    },
-    {
       "language": "NodeJS",
       "fluency": "Experience"
-    },
-    {
-      "language": "CSS",
-      "fluency": "Intermediate"
     },
     {
       "language": "Python",
       "fluency": "Experience"
     },
     {
-      "language": "Emberjs",
+      "language": "AngularJS",
       "fluency": "Intermediate"
     },
     {
       "language": "ReactJS",
       "fluency": "Intermediate"
+    },
+    {
+      "language": "GraphQL",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "AWS",
+      "fluency": "Beginner"
     }
   ],
   "interests": [],

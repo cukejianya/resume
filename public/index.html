@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
   <title>Chinedum Ukejianya</title>
-  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
   <style>body, html {
   padding-top:2.5em;
   margin:0;
@@ -255,9 +255,10 @@ div.content-text.work-listing.education-listing > p:nth-child(2) {
   color: #424242;
   
   margin-left:3.25em;
-  padding-left:0.5em;
   
-  border-left:1px solid #e0e0e0;
+  list-style-type: disc;
+  list-style-position: inside;
+  display: list-item;
   
 }
 
@@ -283,6 +284,7 @@ div.content-text.work-listing.education-listing > p:nth-child(2) {
 
 .work-content, .education-content {
   padding-top: .75em;
+  page-break-inside: avoid;
 }
 
 section.content.education-content > div > div.content-cat {
@@ -331,11 +333,13 @@ div.content-text.skills-listing > p > {
   .education-listing > .highlight {
     margin-left: 30px;
   }
-}</style>
+}
+</style>
   <style media="print">
 body, html {
   background-color: white;
   padding-top: 1.5em;
+  font-size: 104%;
 }
 
 .paper {
@@ -449,7 +453,8 @@ div.content-text.skills-listing > ul > li:first-child {
 
 .big-text {
   padding-top: 0;
-}</style>
+}
+</style>
 </head>
 <body>
   <div class="resume-wrapper">
@@ -481,12 +486,12 @@ div.content-text.skills-listing > ul > li:first-child {
                   </ul>
                   <ul>
                     <li>Email</li>
-                    <li>cukejianya@gmail.com</li>
+                    <li><a href="mailto:cukejianya@gmail.com">cukejianya@gmail.com</a></li>
                   </ul>
               </div>
             </div>
           </section>
-          <!-- LOCATION -->
+
               <section class="content">
                 <div class="row">
                   <div class="content-cat">
@@ -500,34 +505,39 @@ div.content-text.skills-listing > ul > li:first-child {
                   </div>
                 </div>
               </section>
+
+
+
         
                 <section class="content">
                   <div class="row">
                     <div class="content-cat big-text">
                         Work  Experience
-                          <p>2019-10-18 till present</p>
+                          <p>2019-10-18 to present</p>
                     </div>
                     <div class="content-text work-listing education-listing">
-                          <p style="margin-top:2.4em;">
+                          <p>
                             <strong>Full Stack Engineer</strong>
-                            at <strong>tech co.:</strong>
+                            at <strong>Helm</strong>
                         </p>
                           <p class="highlight">Worked with GraphQL and Ruby on Rails to migrate a database from Google Cloud Datastore</p>
                           <p class="highlight">Worked with Java, Maven, and Google Cloud Platform to service more than 30,000 people simantaneously on both a web and mobile apps</p>
                           <p class="highlight">Improved and refactor a integration PHP codebase connected to the Iterable.com API</p>
                           <p class="highlight">Helped greenfield a new project using AngularJS 9 and Ngrx</p>
+                          <p class="highlight">Architeched and built an Admin Service for both BE and FE using Python, AWS Lambda Functions, Angular 11, MongoDB, and Auth0 API</p>
+                          <p class="highlight">Helped transition our backend into our new stack which consisted of Graphql, nodejs, trypescript, AWS CDK, and postgress</p>
                     </div>
                   </div>
                 </section>
                 <section class="content work-content">
                   <div class="row">
                     <div class="content-cat big-text">
-                          <p>2016-04-24 till 2018-06-06</p>
+                          <p>2016-04-24 to 2018-06-06</p>
                     </div>
                     <div class="content-text work-listing education-listing">
                           <p>
                             <strong>Software Developer (Full Stack)</strong>
-                            at <strong>SocialCode:</strong>
+                            at <strong>SocialCode</strong>
                         </p>
                         <p> SocialCode enables smarter, more profitable brands. Our media and analytics capabilities empower marketers to understand, manage and reach their audiences across social, mobile and video platforms.</p>
                           <p class="highlight">Worked with Django and python 2.7/3.5 on the backend to interact with the pinterest and snapchat social media ads api</p>
@@ -541,12 +551,12 @@ div.content-text.skills-listing > ul > li:first-child {
                 <section class="content work-content">
                   <div class="row">
                     <div class="content-cat big-text">
-                          <p>2015-05-22 till 2015-08-22</p>
+                          <p>2015-05-22 to 2015-08-22</p>
                     </div>
                     <div class="content-text work-listing education-listing">
                           <p>
                             <strong>Backend Developer</strong>
-                            at <strong>Trove News:</strong>
+                            at <strong>Trove News</strong>
                         </p>
                         <p>A news reader app that aims to build on the understanding of how people consume news, giving users stories picked by other people who share their interests. </p>
                           <p class="highlight">Converted a bookmarklet into a google chrome extension</p>
@@ -556,14 +566,13 @@ div.content-text.skills-listing > ul > li:first-child {
                   </div>
                 </section>
 
-
                 <section class="content">
                   <div class="row">
                     <div class="content-cat big-text">
                         Education
                     </div>
                     <div class="content-text work-listing education-listing">
-                          <p class="heading" style="margin-top:2.35em;">University of Maryland, College Park</p>
+                          <p style="margin-top:0;" class="heading">University of Maryland, College Park</p>
                         <p class="highlight">
                           Bachelor:
                           <i>Physical Science [concentration in Mathematics, Physics, and Computer Science] </i>
@@ -573,8 +582,6 @@ div.content-text.skills-listing > ul > li:first-child {
                 </section>
 
 
-
-  <!-- LANGUAGE -->
             <section class="content">
               <div class="row">
                 <div class="content-cat">
@@ -586,32 +593,36 @@ div.content-text.skills-listing > ul > li:first-child {
                         <li>Experience</li>
                     </ul>
                     <ul>
-                        <li>HTML</li>
-                        <li>Intermediate</li>
-                    </ul>
-                    <ul>
                         <li>NodeJS</li>
                         <li>Experience</li>
-                    </ul>
-                    <ul>
-                        <li>CSS</li>
-                        <li>Intermediate</li>
                     </ul>
                     <ul>
                         <li>Python</li>
                         <li>Experience</li>
                     </ul>
                     <ul>
-                        <li>Emberjs</li>
+                        <li>AngularJS</li>
                         <li>Intermediate</li>
                     </ul>
                     <ul>
                         <li>ReactJS</li>
                         <li>Intermediate</li>
                     </ul>
+                    <ul>
+                        <li>GraphQL</li>
+                        <li>Intermediate</li>
+                    </ul>
+                    <ul>
+                        <li>AWS</li>
+                        <li>Beginner</li>
+                    </ul>
                 </div>
               </div>
             </section>
+
+
+
+
             <!-- PROFILES -->
               <section class="content profiles">
                 <div class="row">
