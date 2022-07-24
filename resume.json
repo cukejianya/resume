@@ -14,49 +14,37 @@
       "countryCode": "US",
       "region": "Baltimore, Maryland"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "ukejianya_",
-        "url": "https://twitter.com/cukejianya_"
-      },
-      {
-        "network": "Github",
-        "username": "cukejianya",
-        "url": "https://github.com/cukejianya"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "cukejianya",
-        "url": "https://www.linkedin.com/in/cukejianya/"
-      },
-      {
-        "network": "Medium",
-        "username": "cukejianya",
-        "url": "https://medium.com/@cukejianya"
-      },
-      {
-        "network": "Instagram",
-        "username": "cukejianya",
-        "url": "https://www.instagram.com/cukejianya/"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
       "company": "Helm",
+      "position": "Full Stack Engineer (Backend Focused)",
+      "website": "",
+      "startDate": "2020-04-01",
+      "endDate": "present",
+      "summary": "",
+      "highlights": [
+        "Architeched and built an Admin Service for both BE and FE using Python, AWS Lambda Functions, Angular 11, MongoDB, and Auth0 API",
+        "Transitioned our backend into our new stack which consisted of Graphql, nodejs, typescript, AWS CDK, and postgreSQL",
+        "Part of the team that greenfield a new project using AngularJS 12, Ngrx, and Apollo Graphql",
+        "Implemented many AWS infrastructure components using CDK SDK such as State Machines, S3, API Gateway, Redis, and SQS",
+        "Helped build out our backend testing environment using Jest",
+        "Improved our local environment using Docker"
+      ]
+    },
+    {
+      "company": "tech co.",
       "position": "Full Stack Engineer",
       "website": "",
       "startDate": "2019-10-18",
-      "endDate": "present",
+      "endDate": "2020-04-01",
       "summary": "",
       "highlights": [
         "Worked with GraphQL and Ruby on Rails to migrate a database from Google Cloud Datastore",
         "Worked with Java, Maven, and Google Cloud Platform to service more than 30,000 people simantaneously on both a web and mobile apps",
-        "Improved and refactor a integration PHP codebase connected to the Iterable.com API",
-        "Helped greenfield a new project using AngularJS 9 and Ngrx",
-        "Architeched and built an Admin Service for both BE and FE using Python, AWS Lambda Functions, Angular 11, MongoDB, and Auth0 API",
-        "Helped transition our backend into our new stack which consisted of Graphql, nodejs, trypescript, AWS CDK, and postgress"
+        "Improved and refactor the integration PHP codebase connected to the Iterable.com API",
+        "Helped greenfield a new project using AngularJS 9 and Ngrx"
       ]
     },
     {
@@ -72,19 +60,6 @@
         "Deployed and worked on multiple micro-services using Agile Methods and technologies such as chef, jenkins, aws (RDS and EC2), sentry, and git",
         "Helped shaped Snapchats and Pinterest Ad APIs by testing the APIs, documenting inconsistencies, and sharing my findinds with the respective social media's developer ad teams",
         "Led projects that added features to our activation app which created an increase in productivity with our internal Ad Managers Sales Team"
-      ]
-    },
-    {
-      "company": "Trove News",
-      "position": "Backend Developer",
-      "website": "",
-      "startDate": "2015-05-22",
-      "endDate": "2015-08-22",
-      "summary": "A news reader app that aims to build on the understanding of how people consume news, giving users stories picked by other people who share their interests. ",
-      "highlights": [
-        "Converted a bookmarklet into a google chrome extension",
-        "Helped to incorporate NPR podcasts in \"troves\" during a in house hack-a-thon",
-        "Worked primarily with Python, Pyramid (ORM), and Mako."
       ]
     }
   ],
@@ -103,12 +78,12 @@
   "publications": [],
   "languages": [
     {
-      "language": "Javascript",
+      "language": "Javascript/Typescript",
       "fluency": "Experience"
     },
     {
-      "language": "NodeJS",
-      "fluency": "Experience"
+      "language": "Mongo",
+      "fluency": "Intermediate"
     },
     {
       "language": "Python",
@@ -119,16 +94,20 @@
       "fluency": "Intermediate"
     },
     {
-      "language": "ReactJS",
+      "language": "Docker",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Java",
       "fluency": "Intermediate"
     },
     {
       "language": "GraphQL",
-      "fluency": "Intermediate"
+      "fluency": "Experience"
     },
     {
       "language": "AWS",
-      "fluency": "Beginner"
+      "fluency": "Intermediate"
     }
   ],
   "interests": [],
