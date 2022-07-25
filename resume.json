@@ -4,17 +4,7 @@
     "label": "Software Developer",
     "picture": "https://i.imgur.com/mletEEX.png",
     "email": "cukejianya@gmail.com",
-    "phone": "",
-    "website": "www.cukejianya.com",
-    "summary": "Chinedum holds a Bachelors Degree in Physical Science with a concentration in Mathematics, Physics, and Computer Science. Though Chinedum spent a measurable amount of time programming through Role Playing Game Maker 2003, a gaming software tool, his first true introduction to computer science was through a Hack-a-thon. From that point on, Chinedum has enjoyed problem solving various programming obstacles and creating mini side projects.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Baltimore",
-      "countryCode": "US",
-      "region": "Baltimore, Maryland"
-    },
-    "profiles": []
+    "website": "www.cukejianya.com"
   },
   "work": [
     {
@@ -25,7 +15,7 @@
       "endDate": "present",
       "summary": "",
       "highlights": [
-        "Architeched and built an Admin Service for both BE and FE using Python, AWS Lambda Functions, Angular 11, MongoDB, and Auth0 API",
+        "Architeched and built an Admin Service for both BE and FE using Python, AWS Lambda Functions, Angular 12, MongoDB, and Auth0 API",
         "Transitioned our backend into our new stack which consisted of Graphql, nodejs, typescript, AWS CDK, and postgreSQL",
         "Part of the team that greenfield a new project using AngularJS 12, Ngrx, and Apollo Graphql",
         "Implemented many AWS infrastructure components using CDK SDK such as State Machines, S3, API Gateway, Redis, and SQS",
@@ -39,7 +29,6 @@
       "website": "",
       "startDate": "2019-10-18",
       "endDate": "2020-04-01",
-      "summary": "",
       "highlights": [
         "Worked with GraphQL and Ruby on Rails to migrate a database from Google Cloud Datastore",
         "Worked with Java, Maven, and Google Cloud Platform to service more than 30,000 people simantaneously on both a web and mobile apps",
@@ -53,17 +42,13 @@
       "website": "",
       "startDate": "2016-04-24",
       "endDate": "2018-06-06",
-      "summary": " SocialCode enables smarter, more profitable brands. Our media and analytics capabilities empower marketers to understand, manage and reach their audiences across social, mobile and video platforms.",
       "highlights": [
         "Worked with Django and python 2.7/3.5 on the backend to interact with the pinterest and snapchat social media ads api",
         "Made the activation app faster and more responsive by transitioning our BackboneJS components to EmberJS",
-        "Deployed and worked on multiple micro-services using Agile Methods and technologies such as chef, jenkins, aws (RDS and EC2), sentry, and git",
-        "Helped shaped Snapchats and Pinterest Ad APIs by testing the APIs, documenting inconsistencies, and sharing my findinds with the respective social media's developer ad teams",
-        "Led projects that added features to our activation app which created an increase in productivity with our internal Ad Managers Sales Team"
+        "Deployed and worked on multiple micro-services using Agile Methods and technologies such as chef, jenkins, aws (RDS and EC2), sentry, and git"
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "University of Maryland, College Park",
@@ -74,42 +59,26 @@
       "courses": []
     }
   ],
-  "awards": [],
-  "publications": [],
   "languages": [
     {
-      "language": "Javascript/Typescript",
-      "fluency": "Experience"
+      "language": "Languages",
+      "fluency": "Javascript | Python | Java"
     },
     {
-      "language": "Mongo",
-      "fluency": "Intermediate"
+      "language": "Framework",
+      "fluency": "React Native | React | AngularJS"
     },
     {
-      "language": "Python",
-      "fluency": "Experience"
+      "language": "Cloud Tech",
+      "fluency": "AWS | GCP | Digital Ocean"
     },
     {
-      "language": "AngularJS",
-      "fluency": "Intermediate"
+      "language": "Database",
+      "fluency": "MongoDB | MySQL | PostgreSQL"
     },
     {
-      "language": "Docker",
-      "fluency": "Intermediate"
-    },
-    {
-      "language": "Java",
-      "fluency": "Intermediate"
-    },
-    {
-      "language": "GraphQL",
-      "fluency": "Experience"
-    },
-    {
-      "language": "AWS",
-      "fluency": "Intermediate"
+      "language": "Others",
+      "fluency": "Docker | GraphQL"
     }
-  ],
-  "interests": [],
-  "references": []
+  ]
 }
